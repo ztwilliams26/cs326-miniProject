@@ -18,6 +18,17 @@
   <body>
     <h1>RegX Parser</h1>
 
+    <label for="regXText">Regular Expression Text:</label>
+    <input type="textarea" id="regXText" name="regXText" value="[A-Z]+\w* etc.">
+
+    <label for="inputText">Input Text:</label>
+    <input type="textarea" id="inputText" name="inputText" value="How much wood would a woodchuck chuck if a woodchuck could chuck wood?">
+
+    <input type="button" id="parseButton">
+
+    <p> Your text parsed: </p>
+
+    <p id="output"> </p>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
